@@ -12,6 +12,93 @@
     
 </head>
 <body>
+<?php
+                    // if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                    //     extract($_POST);
+                    //     $first_name = dataClean($first_name);
+                    //     $last_name = dataClean($last_name);
+                    //     $address_line1 = dataClean($address_line1);
+                    //     $address_line2 = dataClean($address_line2);
+                    //     $address_line3 = dataClean($address_line3);
+
+                    //     $message = array();
+                    //     Required validation-----------------------------------------------
+                    //     if (empty($first_name)) {
+                    //         $message['first_name'] = "The first name should not be blank...!";
+                    //     }
+                    //     if (empty($last_name)) {
+                    //         $message['last_name'] = "The last name should not be blank...!";
+                    //     }
+                    //     if (!isset($gender)) {
+                    //         $message['gender'] = "Gender is required";
+                    //     }
+                    //     if (empty($user_name)) {
+                    //         $message['user_name'] = "User Name is required";
+                    //     }
+                    //     if (empty($password)) {
+                    //         $message['password'] = "Password is required";
+                    //     }
+
+
+                        // Advance validation------------------------------------------------
+                        // if (ctype_alpha(str_replace(' ', '', $first_name)) === false) {
+                        //     $message['first_name'] = "Only letters and white space allowed";
+                        // }
+                        // if (ctype_alpha(str_replace(' ', '', $last_name)) === false) {
+                        //     $message['last_name'] = "Only letters and white space allowed";
+                        // }
+                        // if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                        //     $message['email'] = "Invalid Email Address...!";
+                        // } else {
+                        //     $db = dbConn();
+                        //     $sql = "SELECT * FROM customers WHERE Email='$email'";
+                        //     $result = $db->query($sql);
+
+                        //     if ($result->num_rows > 0) {
+                        //         $message['email'] = "This Email address already exsist...!";
+                        //     }
+                        // }
+                        
+                    //     if(!empty($user_name)){
+                    //         $db = dbConn();
+                    //         $sql = "SELECT * FROM users WHERE UserName='$user_name'";
+                    //         $result = $db->query($sql);
+
+                    //         if ($result->num_rows > 0) {
+                    //             $message['user_name'] = "This User Name already exsist...!";
+                    //         }
+                    //     }
+                        
+                    //     if(!empty($password)){
+                    //         if(strlen($password)<8){
+                    //             $message['password']="The password should be 8 characters more";
+                    //         }
+                    //     }
+
+                    //     if (empty($message)) {
+                    //         Use bcrypt hasing algorithem
+                    //         $pw= password_hash($password,PASSWORD_DEFAULT);
+                    //         $db = dbConn();
+                    //         $sql = "INSERT INTO `users`(`UserName`, `Password`) VALUES ('$user_name','$pw')";
+                    //         $db->query($sql);
+
+                    //         $user_id = $db->insert_id;
+                            
+                    //         $reg_number=date('Y').date('m').date('d').$user_id;
+                    //         $_SESSION['RNO']=$reg_number;
+                    //         $sql = "INSERT INTO `customers`(`FirstName`, `LastName`, `Email`, `AddressLine1`, `AddressLine2`, `AddressLine3`, `TelNo`, `MobileNo`, `Gender`, `DistrictId`,`RegNo`,`UserId`) VALUES ('$first_name','$last_name','$email','$address_line1','$address_line2','$address_line3','$telno','$mobile_no','$gender','$district','$reg_number','$user_id')";
+                    //         $db->query($sql);
+                    //         $msg="<h1>SUCCESS</h1>";
+                    //         $msg.="<h2>Congratulations</h2>";
+                    //         $msg.="<p>Your account has been successfully created</p>";
+                    //         $msg.="<a href='http://localhost/bittest/verify.php'>Click here to verifiy your account</a>";
+                    //         sendEmail($email,$first_name,"Account Verification",$msg);
+                            
+                    //         header("Location:register_success.php");
+                            
+                    //     }
+                    // }
+                    ?>
 <center>
     <div class="container">
         <table border="0">

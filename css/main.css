@@ -1,9 +1,10 @@
 @import url('font-inter.css');
+
 :root {
-  --primarycolor: #0A76D8;
-  --primarycolorhover: #006dd3;
-  --btnice:#D8EBFA;
-  --btnnicetext:#1b62b3;
+  --primarycolor: #e68d12;
+  --primarycolorhover: #e8bf2d;
+  --btnice:#faf8d8;
+  --btnnicetext:#ea9f1f;
 }
 
 body{
@@ -81,7 +82,7 @@ body{
 }
 
 .input-text:focus{
-    border: 1px solid rgb(10,118,216);
+    border: 1px solid rgb(228, 161, 54);
     transition: 0.2s;
 }
 
@@ -106,7 +107,7 @@ body{
 
 
 .btn:hover{
-    background-color: var(--primarycolorhover);
+    background-color: #e8bf2d;
     box-shadow: none;
     transition: all 0.5s;
     font-family: 'Inter', sans-serif;
@@ -115,15 +116,15 @@ body{
 
 
 .btn-primary{
-    background-color: var(--primarycolor) ;
+    background-color:  #d89538 ;
     border: 1px solid var(--primarycolor) ;
     color: #fff ;
-    box-shadow: 0 3px 5px 0 rgba(57,108,240,0.3);
+    box-shadow: 0 3px 5px 0 rgba(239, 174, 36, 0.3);
 }
 
 .btn-primary-soft{
     background-color: #D8EBFA ;
-    /*border: 1px solid rgba(57,108,240,0.1) ;*/    color: #1969AA;
+    /*border: 1px solid rgba(57,108,240,0.1) ;*/    color: #d89538;
     font-weight: 500;
     font-size: 16px;
     border: none;
@@ -132,10 +133,10 @@ body{
 
 
 .btn-primary-soft:hover{
-    background-color: var(--primarycolor) ;
+    background-color: #e68d12;
     /*border: 1px solid rgba(57,108,240,0.1) ;*/
-    color: #fff ;
-    box-shadow: 0 3px 5px 0 rgba(57,108,240,0.3);
+    color: #f4e8a2 ;
+    box-shadow: 0 3px 5px 0 rgba(244, 165, 37, 0.693);
 }
 
 
@@ -173,7 +174,7 @@ body{
     
 }
 
-.filter-container{
+.filter-container{ 
   width: 92.5%;
   border: 1px solid #ebebeb;
   border-radius: 8px;
@@ -265,7 +266,7 @@ body{
 
 
 input[type=search] {
-    background-image: url('../img/search.svg');
+    background-image: url('../images/');
     background-position: 10px 50%;
     background-repeat: no-repeat;
     transition: 0.5s;
@@ -305,7 +306,7 @@ input[type=search]:focus {
 
 
 .btn-primary-gray:hover{
-  background-color: #5185ffa9;
+  background-color: #ffdc51a9;
   box-shadow: 0 3px 5px 0 rgba(95, 95, 97, 0.3);
 }
 
@@ -360,37 +361,37 @@ input[type=search]:focus {
 
 .non-style-link-menu-active:link, .non-style-link-menu-active:visited,  .non-style-link-menu-active:active{
   text-decoration: none;
-  color: var(--primarycolor);
+  color: "";
 }
 
 
 
 .menu-icon-dashbord{
-  background-image: url('../img/icons/dashboard.svg');
+  background-image: url('../images/icons/dashboard.svg');
 }
 
 
 .menu-icon-doctor{
-  background-image: url('../img/icons/doctors.svg');
+  background-image: url('../images/icons/doctors.svg');
 }
 .menu-icon-schedule{
-  background-image: url('../img/icons/schedule.svg');
+  background-image: url('../images/icons/doctors.svg');
 }
 .menu-icon-appoinment{
-  background-image: url('../img/icons/book.svg');
+  background-image: url('../images/icons/book.svg');
 }
 .menu-icon-patient{
-  background-image: url('../img/icons/patients.svg');
+  background-image: url('../images/icons/patients.svg');
 }
 .menu-icon-settings{
-  background-image: url('../img/icons/settings.svg');
+  background-image: url('../images/icons/settings.svg');
 }
 
 .menu-icon-session{
-  background-image: url('../img/icons/session.svg');
+  background-image: url('../images/icons/session.svg');
 }
 .menu-icon-home{
-  background-image: url('../img/icons/home.svg');
+  background-image: url('../images/icons/home.svg');
 }
 
 
@@ -398,45 +399,45 @@ input[type=search]:focus {
 .menu-icon-dashbord:hover,.menu-icon-dashbord-active{
   color: var(--primarycolor);
 
-  background-image: url('../img/icons/dashboard-hover.svg');
+  background-image: url('../images/icons/dashboard-hover.svg');
 }
 
 
 .menu-icon-doctor:hover,.menu-icon-doctor-active{
   color: var(--primarycolor);
-  background-image: url('../img/icons/doctors-hover.svg');
+  background-image: url('../images/icons/doctors-hover.svg');
 }
 .menu-icon-schedule:hover,.menu-icon-schedule-active{
   color: var(--primarycolor);
   
-  background-image: url('../img/icons/schedule-hover.svg');
+  background-image: url('../images/icons/schedule-hover.svg');
 }
 .menu-icon-appoinment:hover,.menu-icon-appoinment-active{
   color: var(--primarycolor);
   
-  background-image: url('../img/icons/book-hover.svg');
+  background-image: url('../images/icons/book-hover.svg');
 }
 .menu-icon-patient:hover,.menu-icon-patient-active{
   color: var(--primarycolor);
   
-  background-image: url('../img/icons/patients-hover.svg');
+  background-image: url('../images/icons/patients-hover.svg');
 }
 
 .menu-icon-settings:hover,.menu-icon-settings-active{
   color: var(--primarycolor);
   
-  background-image: url('../img/icons/settings-iceblue.svg');
+  background-image: url('../images/icons/settings-iceblue.svg');
 }
 
 .menu-icon-session:hover,.menu-icon-session-active{
   color: var(--primarycolor);
   
-  background-image: url('../img/icons/session-iceblue.svg');
+  background-image: url('../images/icons/session-iceblue.svg');
 }
 .menu-icon-home:hover,.menu-icon-home-active{
   color: var(--primarycolor);
   
-  background-image: url('../img/icons/home-iceblue.svg');
+  background-image: url('../images/icons/home-iceblue.svg');
 }
 
 
@@ -444,7 +445,7 @@ input[type=search]:focus {
 
 
 .btn-icon-back{
-  background-image: url('../img/icons/back-iceblue.svg');
+  background-image: url('../images/icons/back-iceblue.svg');
   background-position: 18px 50%;
   background-repeat: no-repeat;
   transition: 0.5s;
@@ -452,37 +453,37 @@ input[type=search]:focus {
 }
 
 .btn-icon-back:hover{
-  background-image: url('../img/icons/back-white.svg');
+  background-image: url('../images/icons/back-white.svg');
 }
 
 
 .btn-edit{
-  background-image: url('../img/icons/edit-iceblue.svg');
+  background-image: url('../images/icons/edit-iceblue.svg');
 }
 .btn-edit:hover{
-  background-image: url('../img/icons/edit-white.svg');
+  background-image: url('../images/icons/edit-white.svg');
 }
 
 .btn-view{
-  background-image: url('../img/icons/view-iceblue.svg');
+  background-image: url('../images/icons/view-iceblue.svg');
 }
 .btn-view:hover{
-  background-image: url('../img/icons/view-white.svg');
+  background-image: url('../images/icons/view-white.svg');
 }
 
 .btn-delete{
-  background-image: url('../img/icons/delete-iceblue.svg');
+  background-image: url('../images/icons/delete-iceblue.svg');
 }
 .btn-delete:hover{
-  background-image: url('../img/icons/delete-white.svg');
+  background-image: url('../images/icons/delete-white.svg');
 }
 
 .btn-filter{
-  background-image: url('../img/icons/filter-iceblue.svg');
+  background-image: url('../images/icons/filter-iceblue.svg');
   background-position: 15px 50%;
 }
 .btn-filter:hover{
-  background-image: url('../img/icons/filter-white.svg');
+  background-image: url('../images/icons/filter-white.svg');
 }
 
 
@@ -540,7 +541,8 @@ input[type=search]:focus {
 
 
 .doctor-header{
-  background-image: url(../img/b8.jpg);
+  background-image: url(../images/cover2.jpg);
+  background-color: #f3d5ac;
   color: rgba(0, 0, 0, 0.87);
   background-size: 100%;
   background-repeat: no-repeat;
